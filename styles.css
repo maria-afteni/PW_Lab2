@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    color: #c19ee0;
+    color: #A4C9E6;
     font-size: 36px;
     margin-left: 15px;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .nav_ul_li_a:hover {
-    color: #c19ee0;
+    color: #A4C9E6;
 }
 
 .intro {
@@ -70,7 +70,8 @@ body {
 }
 
 .main-heading span {
-    color: #c19ee0;
+    color: #A4C9E6;
+
 
 
 }
@@ -84,8 +85,8 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #c19ee0;
-    color: #fff;
+    background-color: #CCE7FC;
+    color: #333;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
@@ -184,6 +185,11 @@ body {
     margin-top: 2%;
 }
 
+.blog-button:hover {
+    background-color: #e65136;
+}
+
+
 .contact-section {
     display: flex;
     margin-left: 5%;
@@ -213,8 +219,8 @@ body {
 }
 
 .email-form button {
-    background-color: #c19ee0;
-    color: #fff;
+    background-color: #CCE7FC;
+    color: #000;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -223,4 +229,34 @@ body {
 
 .email-form button:hover {
     background-color: #e65136;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    /* padding: 5px;     */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
 }
