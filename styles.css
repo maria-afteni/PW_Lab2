@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     background-color: #f9f9f9;
     overflow-x: hidden;
-    /* Hide horizontal scrollbar */
 }
 
 .navbar {
@@ -129,8 +128,8 @@ body {
 .shop-button {
     margin-bottom: 2%;
     display: inline-block;
-    background-color: #c19ee0;
-    color: #fff;
+    /* background-color: #c19ee0; */
+    color: #000;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
@@ -140,12 +139,47 @@ body {
 }
 
 .blog-box {
-    background-color: #c19ee0;
+    background-color: #CCE7FC;
     width: auto;
-    height: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .blog-box-img {
-    margin-left: 10%;
+    margin-left: 5%;
+    height: 400px;
+}
+
+.blog-box>div {
+    flex: 1;
+}
+
+.blog-box h3 {
+    margin-left: 30%;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+.blog-box p {
+    margin-left: 30%;
+    color: #333;
+    font-style: italic;
+    font-size: 23px;
+    margin-top: 0%;
+}
+
+.blog-button {
+    margin-bottom: 2%;
+    display: inline-block;
+    background-color: #131212;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 46.5%;
+    font-size: 20px;
     margin-top: 2%;
 }
