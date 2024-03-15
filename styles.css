@@ -42,8 +42,32 @@ body {
     font-size: 18px;
 }
 
+.nav_ul_li_lan {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .nav_ul_li_a:hover {
     color: #A4C9E6;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        margin-left: 5%;
+    }
+
+    .nav_ul {
+        margin-left: 5%;
+    }
+
+    .nav_ul_li {
+        margin-right: 5%;
+    }
+
+    .nav_ul_li_lan {
+        display: none;
+    }
 }
 
 .intro {
