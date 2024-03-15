@@ -52,23 +52,42 @@ body {
     color: #A4C9E6;
 }
 
-@media only screen and (max-width: 768px) {
-    .logo {
-        margin-left: 5%;
-    }
-
-    .nav_ul {
-        margin-left: 5%;
-    }
-
-    .nav_ul_li {
-        margin-right: 5%;
-    }
-
-    .nav_ul_li_lan {
-        display: none;
-    }
+.navbar-mobile {
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
 }
+
+.logo-mobile {
+    margin-top: 5%;
+    text-align: center;
+    color: #A4C9E6;
+    font-size: 36px;
+    margin-bottom: 2%;
+
+}
+
+.nav_ul_m {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+.nav_ul_li_m {
+    margin-top: 0;
+    margin-right: 2%;
+}
+
+.nav_ul_li_a_m {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
 
 .intro {
     display: flex;
@@ -124,6 +143,15 @@ body {
     background-color: #e65136;
 }
 
+.intro-img {
+    margin-left: 21%;
+}
+
+.mobile-img {
+    margin-left: 10%;
+}
+
+
 .bouquet-container {
     display: flex;
     justify-content: space-around;
@@ -150,6 +178,10 @@ body {
     font-style: bold;
 }
 
+.shop {
+    margin-top: 2%;
+}
+
 .shop-button {
     margin-bottom: 2%;
     display: inline-block;
@@ -161,7 +193,9 @@ body {
     transition: background-color 0.3s ease;
     margin-left: 46.5%;
     font-size: 20px;
+    text-align: center;
 }
+
 
 .blog-box {
     background-color: #CCE7FC;
@@ -213,6 +247,17 @@ body {
     background-color: #e65136;
 }
 
+.blog-box-img-mobile {
+    height: 400px;
+    width: 60%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.personalize-mobile {
+    margin-top: 0;
+
+}
 
 .contact-section {
     display: flex;
@@ -283,4 +328,145 @@ body {
 .footer-nav li a {
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-mobile {
+        display: none;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .blog-box-img-mobile {
+        display: none;
+    }
+
+    .personalize-mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width:340px) {
+    .navbar {
+        display: none;
+    }
+
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+
+    .main-heading {
+        font-size: 32px;
+    }
+
+    .intro-text {
+        font-size: 20px;
+    }
+
+    .cta {
+        font-size: 30px;
+
+    }
+
+    .mobile-img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .shop {
+        margin-top: 5%;
+    }
+
+    .bouquet-container {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: flex-end;
+
+
+        margin-top: 2%;
+    }
+
+    .bouquet {
+        background-color: #fff;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .b_h3 {
+        font-size: 20px;
+    }
+
+    .p_h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        font-style: bold;
+    }
+
+    .shop-button {
+        margin-left: 38%;
+    }
+
+    .blog-box {
+        display: none;
+    }
+
+    .blog-box-img {
+        display: none;
+    }
+
+    .blog-box>div {
+        margin-left: 10%;
+        flex: 1;
+        text-align: center;
+    }
+
+    .blog-box h3 {
+        font-size: 28px;
+        /* Reduced font size for mobile */
+        font-style: italic;
+    }
+
+    .blog-box p {
+        color: #333;
+        font-style: italic;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .blog-button {
+        display: inline-block;
+        background-color: #131212;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+        margin-top: 20px;
+
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .email-form {
+        display: none;
+    }
+
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +21,23 @@
         </ul>
     </nav>
     
+    <nav class="navbar-mobile">
+        <p class="logo-mobile" >allBloom</p>
+        <ul class="nav_ul_m">
+            <li class="nav_ul_li_m" ><a class="nav_ul_li_a_m" href="#home">Home</a></li>
+            <li class="nav_ul_li_m" style="margin-left: 5%;"><a class="nav_ul_li_a_m" href="#shop">Shop</a></li>
+            <li class="nav_ul_li_m" style="margin-left: 5%;"><a class="nav_ul_li_a_m" href="#personalize-m">Personalize</a></li>
+            <li class="nav_ul_li_m" style="margin-left: 5%;"><a class="nav_ul_li_a_m" href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+    
+    
     <div id="home" class="intro">
         <div>
             <header>
                 <h1 class="main-heading">Special designs <br> <span>for memorable moments</span></h1>            
             </header>
+            <img src="mobile-img.webp" class="mobile-img" style="height: 500px; ">
             <main>
                 <section>
                     <p class="intro-text">Make your occasion even more special with individual floral bouquets. Be the reason you remember. </p>
@@ -34,10 +46,11 @@
             </main>
         </div>
         <div>
-            <img src="flowers.jpg" alt="Flower" style="margin-left: 21%;">
+            <img src="flowers.jpg" alt="Flower" class="intro-img">
         </div>
+
     </div>
-    <h3 id="shop" style="margin-top: 2%; text-align: center; font-size: 32px; color: #333;">Shop Best Sellers</h3>
+    <h3 id="shop" class="shop" style="text-align: center; font-size: 32px; color: #333;">Shop Best Sellers</h3>
 
     <div class="bouquet-container" >
         
@@ -74,7 +87,7 @@
           </section>
         </a>
     </div>
-    <a href="best_sellers.html" class="shop-button" style="align-items: center;">View All</a>
+    <a href="best_sellers.html" class="shop-button">View All</a>
     
     <div class="blog-box" id="personalize">
         <img src="ocassion_flower.png" alt="'Purple Flower" class="blog-box-img">
@@ -85,6 +98,18 @@
         </div>
         
     </div>
+    
+    <div  id="personalize-m" style="background-color: #CCE7FC; text-align: center;">
+        <img src="ocassion_flower.png" alt="'Purple Flower" class="blog-box-img-mobile">
+    
+        <div class="personalize-mobile">
+            <h3>Personalize <span>your</span> bouquet</h3>
+            <p>Make your bouquet special by combining the flowers you choose. <br> Create the magic by yourself.</p>
+            <a href="best_sellers.html" class="blog-button" style="margin-left: 0; font-size: 18px; margin-bottom: 4%;">Personalize Now</a>
+        </div>
+    </div>
+        
+  
 
     <div class="contact-section" id="contact">
         <div class="contact-info">
