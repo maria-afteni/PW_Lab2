@@ -23,6 +23,7 @@ body {
     color: #A4C9E6;
     font-size: 36px;
     margin-left: 15px;
+    pointer-events: none;
 }
 
 .nav_ul {
