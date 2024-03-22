@@ -165,10 +165,12 @@ body {
     margin-bottom: 2rem;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .b_h3 {
     font-size: 20px;
+    margin-top: 2%;
     /* margin-bottom: 1rem; */
 }
 
@@ -395,6 +397,7 @@ body {
         margin-top: 5%;
     }
 
+
     .bouquet-container {
         display: flex;
         /* flex-direction: column; */
@@ -412,6 +415,8 @@ body {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         align-items: center;
         margin-top: 2%;
+        text-align: center;
+
     }
 
     .b_h3 {
