@@ -27,4 +27,4 @@ Contact Us Section:
 
 ![alt text](image-4.png)
 
-Link: https://maria-afteni.github.io/PW_Lab2/
+Link: https://maria-afteni.github.io/allBloom/
